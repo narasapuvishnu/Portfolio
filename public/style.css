@@ -534,32 +534,32 @@ section { padding: 90px 60px; }
    CERTIFICATIONS SECTION
    ============================================================ */
 #certifications {
-  background: linear-gradient(135deg, #c0392b 0%, #8e1a10 40%, var(--primary) 100%);
+  background: linear-gradient(135deg, #0a0e27 0%, var(--primary) 45%, #0f3460 100%);
   position: relative;
   overflow: hidden;
 }
 #certifications::before {
   content: '';
   position: absolute;
-  top: -80px; right: -80px;
-  width: 340px; height: 340px;
-  background: radial-gradient(circle, rgba(231,76,60,0.18) 0%, transparent 70%);
+  top: -100px; right: -100px;
+  width: 420px; height: 420px;
+  background: radial-gradient(circle, rgba(192,57,43,0.12) 0%, transparent 65%);
   border-radius: 50%;
   pointer-events: none;
 }
 #certifications::after {
   content: '';
   position: absolute;
-  bottom: -60px; left: -60px;
-  width: 260px; height: 260px;
-  background: radial-gradient(circle, rgba(255,255,255,0.06) 0%, transparent 70%);
+  bottom: -80px; left: -80px;
+  width: 320px; height: 320px;
+  background: radial-gradient(circle, rgba(15,52,96,0.5) 0%, transparent 65%);
   border-radius: 50%;
   pointer-events: none;
 }
 #certifications .section-inner { position: relative; z-index: 1; }
 #certifications .section-title { color: var(--white); }
-#certifications .section-label { color: rgba(255,200,200,0.9); }
-#certifications .section-divider { background: rgba(255,255,255,0.6); }
+#certifications .section-label { color: var(--accent2); }
+#certifications .section-divider { background: var(--accent2); }
 .certs-grid {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
